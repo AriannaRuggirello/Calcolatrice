@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>cacolatrice</title>
+    <a href="css/style.css"></a>
+</head>
+<body>
+    <div class="container text-center">
+
+        <h2 class="py-5">CALCOLATRICE </h2>
+        
+
+        <div class="col-lg-4 text-center m-0 m-auto">
+            
+            <!-- display -->
+            <div class="row">
+                <input type="text" placeholder="0"  id="inputext" class="bg-dark text-light text-end fs-1 rounded-1">
+            </div>
+            <!-- buttons -->
+            <div id="buttons" class="row row-cols-4 justify-content-between grid gap-3 py-3 ">
+
+                    <button onclick="calculate(1)"  type="button" class="btn btn-light border border-dark-subtle ">1</button>
+                    <button onclick="calculate(2)"  type="button" class="btn btn-light border border-dark-subtle ">2</button>
+                    <button onclick="calculate(3)"  type="button" class="btn btn-light border border-dark-subtle ">3</button>
+                    <button onclick="calculate(4)"  type="button" class="btn btn-light border border-dark-subtle ">4</button>
+                    <button onclick="calculate(5)"  type="button" class="btn btn-light border border-dark-subtle ">5</button>
+                    <button onclick="calculate(6)"  type="button" class="btn btn-light border border-dark-subtle ">6</button>
+                    <button onclick="calculate(7)"  type="button" class="btn btn-light border border-dark-subtle ">7</button>
+                    <button onclick="calculate(8)"  type="button" class="btn btn-light border border-dark-subtle ">8</button>
+                    <button onclick="calculate(9)"  type="button" class="btn btn-light border border-dark-subtle ">9</button>
+                    <button onclick="calculate(0)"  type="button" class="btn btn-light border border-dark-subtle ">0</button>
+                    <button onclick="calculate('.')"  type="button" class="btn btn-light border border-dark-subtle ">,</button>
+                    <button onclick="Result()"  type="button" class="btn btn-warning border border-warning-subtle">=</button>
+                    <button onclick="calculate('+')"  type="button" class="btn btn-warning border border-warning-subtle">+</button>
+                    <button onclick="calculate('-')"  type="button" class="btn btn-warning border border-warning-subtle">-</button>
+                    <button onclick="calculate('/')"  type="button" class="btn btn-warning border border-warning-subtle">:</button>
+                    <button onclick="calculate('*')"  type="button" class="btn btn-warning border border-warning-subtle">x</button>
+                    <button onclick="clr()"  type="button" class="btn btn-warning border border-warning-subtle">C</button>
+                    <button onclick="del()"  type="button" class="btn btn-warning border border-warning-subtle">DEL</button>
+            </div>
+        </div>  
+   
+        
+      
+            
+      
+     
+       
+     
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
